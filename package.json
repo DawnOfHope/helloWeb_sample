@@ -1,0 +1,24 @@
+{
+  "name": "helloweb",
+  "version": "1.0.0",
+  "description": "使用Node.js+Express 測試網頁",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DawnOfHope/helloWeb_sample.git"
+  },
+  "author": "Ana Hu",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/DawnOfHope/helloWeb_sample/issues"
+  },
+  "homepage": "https://github.com/DawnOfHope/helloWeb_sample#readme"
+}
