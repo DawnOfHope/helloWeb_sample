@@ -1,30 +1,10 @@
 <html>
 <head>
+<meta charset="utf-8" />
 <title>HelloWeb_Sample</title>
 <link rel="stylesheet" href="css/style.css"/>
 <link rel="stylesheet" href="/css/bootstrap.min.css">
 
-<script type="text/javascript" src="jquery.min.js"></script>
-<script type="text/javascript">
-
-//jQuery 讀取 json檔
-var Ajax = function ()
-    {
-        $.getJSON ("data.json", function (data)
-        {
-            $.each (data, function (i, item)
-            {
-                $ ("#disp").append ("<h3>" + item.name + "</h3>");
-                $ ("#disp").append ("<p>" + item.sex + "</p>");
-                $ ("#disp").append ("<p>" + item.email + "</p>");
-
-            });
-        });
-    }
-
-
-
-</script>
 
 </head>
 <body>
@@ -38,7 +18,7 @@ var Ajax = function ()
     <div class="container">
         <div class="col-xs-6 col-md-3 ">
             <a href="#"class="thumbnail" >
-                <img src="Img/dog.png" alt="dog">
+                <img src="dog.png" alt="dog">
             </a>
         </div>
 
@@ -50,12 +30,20 @@ var Ajax = function ()
             </a>
         </div>
 
-        <div class="col-xs-6 col-md-3 ">
-            <marquee onMouseOver="this.stop()" onMouseOut="this.start()" id="disp"></marquee>
+        <div class="col-xs-6 col-md-3 " >
+            <marquee onMouseOver="this.stop()" onMouseOut="this.start()" direction="down"  ></marquee>
 
         </div>
 
-        <input type="button" value="Ajax提交" onclick="Ajax();" />
+        <input type="button" value="Ajax提交" onclick="testRun();" />
+
+        <div id="ann_box" class="col-xs-6 col-md-3  ann" >
+            <div id="disp" class="ann"></div>
+            <div id="disp1" class="ann"></div>
+            <div id="disp2" class="ann"></div>
+            <div id="disp3" class="ann"></div>
+            <div id="disp4" class="ann"></div>
+        </div>
 
     </div>
 
@@ -66,9 +54,10 @@ var Ajax = function ()
 
 
 
-    <script src="js/index.js"></script>
+    <script src="index.js"></script>
     <script src="/js/jquery.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
+    <script src=“bundle.js”> </script>
 
 </body>
 </html>

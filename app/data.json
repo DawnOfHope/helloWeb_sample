@@ -1,5 +1,20 @@
+
 [
-  {"name":"John","sex":"M","email":"zhangguoli@123.com"},
-  {"name":"Tina","sex":"W","email":"zhangtieli@123.com"},
-  {"name":"Joey","sex":"W",   "email":"zhenjie@123.com"}
+  {"name":"John",
+    "sex":"M",
+    "email":"zhangguoli@123.com",
+    "birthday":"1993.07.08",
+    "tel":"04-3314102"},
+
+  {"name":"Tina",
+    "sex":"W",
+    "email":"zhangtieli@456.com",
+    "birthday":"1993.09.08",
+    "tel":"04-3314102"},
+
+  {"name":"Joey",
+    "sex":"W",
+    "email":"zhenjie@789.com",
+    "birthday":"1993.10.08",
+    "tel":"04-3314102"}
 ]
