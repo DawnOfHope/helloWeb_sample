@@ -2,8 +2,7 @@
 <head>
 <meta charset="utf-8" />
 <title>HelloWeb_Sample</title>
-<link rel="stylesheet" href="css/style.css"/>
-<link rel="stylesheet" href="/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/bootstrap.css">
 
 
 </head>
@@ -18,7 +17,7 @@
     <div class="container">
         <div class="col-xs-6 col-md-3 ">
             <a href="#"class="thumbnail" >
-                <img src="dog.png" alt="dog">
+                <img src="./0d35df89233dc69b03e3978ef8464cb7.png" alt="dog">
             </a>
         </div>
 
@@ -26,7 +25,7 @@
             <a href="#" class="thumbnail" >
               <h3>現在時間：</h3>
               <h4 id="clockTime" ></h4>
-              <button type="button" id="btnClick" onClick="btnClickEvent()">Click Me!</button>
+              <button type="button" id="btnClick" onclick="btnClickEvent()">Click Me!</button>
             </a>
         </div>
 
@@ -35,7 +34,7 @@
 
         </div>
 
-        <input type="button" value="Ajax提交" onclick="testRun();" />
+        <input type="button" value="Ajax提交" id="runTime" />
 
         <div id="ann_box" class="col-xs-6 col-md-3  ann" >
             <div id="disp" class="ann"></div>
@@ -54,10 +53,9 @@
 
 
 
-    <script src="index.js"></script>
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src=“bundle.js”> </script>
+    <!-- <script src="index.js"></script> -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./bundle.js"> </script>
 
 </body>
 </html>
